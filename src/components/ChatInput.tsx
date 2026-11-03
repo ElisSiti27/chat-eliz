@@ -79,7 +79,7 @@ export default function ChatInput({
         </button>
       </div>
       <div className="text-xs text-gray-500 dark:text-gray-400 mt-6 text-center space-y-1">
-        <p>“SontoloyoAI is just an AI, so it can make mistakes.”</p>
+        <p>“Elis AI Asisten adalah AI dan dapat membuat kesalahan.”</p>
         <p>© 2026 Hak Cipta Dilindungi.</p>
         <p>
           Developed by{' '}

@@ -41,10 +41,10 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl shadow-lg shadow-blue-500/30 mb-4">
-            <i className="fas fa-robot text-2xl text-white" />
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl overflow-hidden shadow-lg shadow-blue-500/30 mb-4">
+            <img src="/icons/icon-192x192.png" alt="" className="w-full h-full object-cover" />
           </div>
-          <h1 className="text-2xl font-bold text-white">Sontoloyo AI</h1>
+          <h1 className="text-2xl font-bold text-white">Elis AI Asisten</h1>
           <p className="text-blue-300 text-sm mt-1">Admin Dashboard</p>
         </div>
 
@@ -121,7 +121,7 @@ export default function AdminLoginPage() {
         </div>
 
         <p className="text-center text-slate-600 text-xs mt-4">
-          &copy; 2026 Sontoloyo AI · adi-muhamad.my.id
+          &copy; 2026 Elis AI Asisten
         </p>
       </div>
     </div>

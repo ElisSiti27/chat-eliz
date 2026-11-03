@@ -10,15 +10,15 @@ export default function Navbar({ theme, onToggleTheme }: NavbarProps) {
     <nav className="fixed w-full top-0 left-0 z-50 border-b border-gray-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md">
       <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-2 rounded-lg text-white shadow-md">
-            <i className="fas fa-robot text-xl"></i>
+          <div className="w-10 h-10 rounded-xl overflow-hidden shadow-md ring-1 ring-gray-200 dark:ring-slate-700">
+            <img src="/icons/icon-192x192.png" alt="" className="w-full h-full object-cover" />
           </div>
           <div>
             <h1 className="font-bold text-lg leading-none text-gray-900 dark:text-white">
-              Sontoloyo AI
+              Elis AI Asisten
             </h1>
             <p className="text-xs text-gray-500 dark:text-gray-400">
-              chat.adi-muhamad.my.id
+              Teman ngobrol pintar
             </p>
           </div>
         </div>

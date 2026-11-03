@@ -1,13 +1,13 @@
 {
-  "name": "Sontoloyo AI",
-  "short_name": "Sontoloyo AI",
-  "description": "Sontoloyo AI - AI Chatbot untuk blog adi-muhamad.my.id",
+  "name": "Elis AI Asisten",
+  "short_name": "Elis AI",
+  "description": "Elis AI Asisten, teman ngobrol pintar yang siap membantu Anda.",
   "display": "standalone",
   "start_url": "/",
   "scope": "/",
   "orientation": "portrait",
-  "theme_color": "#2563eb",
-  "background_color": "#0f172a",
+  "theme_color": "#7895d1",
+  "background_color": "#f7f5f1",
   "categories": ["productivity", "utilities"],
   "icons": [
     {

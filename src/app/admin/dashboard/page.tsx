@@ -104,11 +104,11 @@ export default function AdminDashboard() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-1.5 rounded-lg">
-              <i className="fas fa-robot text-white text-sm" />
+            <div className="w-8 h-8 rounded-lg overflow-hidden">
+              <img src="/icons/icon-192x192.png" alt="" className="w-full h-full object-cover" />
             </div>
             <div>
-              <span className="font-bold text-white text-sm">Sontoloyo AI</span>
+              <span className="font-bold text-white text-sm">Elis AI Asisten</span>
               <span className="text-xs text-blue-400 ml-2">Admin Dashboard</span>
             </div>
           </div>
@@ -338,9 +338,9 @@ export default function AdminDashboard() {
               <div>
                 <div className="flex items-center gap-2 mb-2">
                   <div className="w-6 h-6 bg-blue-700 rounded-full flex items-center justify-center">
-                    <i className="fas fa-robot text-xs text-white" />
+                    <i className="fas fa-wand-magic-sparkles text-xs text-white" />
                   </div>
-                  <span className="text-xs font-medium text-blue-300">Sontoloyo AI</span>
+                  <span className="text-xs font-medium text-blue-300">Elis AI Asisten</span>
                 </div>
                 <div className="bg-blue-950/40 border border-blue-900/30 rounded-xl p-4">
                   <p className="text-sm text-slate-200 leading-relaxed whitespace-pre-wrap">

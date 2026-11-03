@@ -27,13 +27,13 @@ export default function ChatWindow({ messages }: { messages: Message[] }) {
         <div className="flex items-center justify-center h-full">
           <div className="text-center">
             <div className="bg-blue-100 dark:bg-blue-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-robot text-3xl text-blue-600 dark:text-blue-400"></i>
+              <i className="fas fa-wand-magic-sparkles text-3xl text-blue-600 dark:text-blue-400"></i>
             </div>
             <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Selamat datang!</h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-sm">
-              Halloo.. Saya adalah Sontoloyo AI<br>
+              Halloo.. Saya Elis, asisten AI yang siap menemani Anda.<br>
               </br>
-              Anda bisa bertanya tentang apapun terkait informasi yang ada di dalam konten blog saya!
+              Tanyakan apa saja, saya akan membantu dengan senang hati!
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function ChatWindow({ messages }: { messages: Message[] }) {
                 }`}
             >
               <i
-                className={`fas text-xs ${message.role === 'user' ? 'fa-user' : 'fa-robot'
+                className={`fas text-xs ${message.role === 'user'                 ? 'fa-user' : 'fa-wand-magic-sparkles'
                   }`}
               ></i>
             </div>
